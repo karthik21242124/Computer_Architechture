@@ -1,0 +1,190 @@
+program executed sucessfully with return code: 0
+clock :1 fetch (lw 20 0 0) 
+clock :2 fetch (add 0 0 0)  decode (lw 0 0 0) 
+clock :3 fetch (add 0 0 0)  decode (NOPE)  execute (lw 0 0 0) 
+clock :4 fetch (add 0 0 0)  decode (NOPE)  execute (NOPE)  write_back (lw 20 0 0) 
+
+clock :5 fetch (add 20 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :6 fetch (sw 20 0 0)  decode (add 20 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :7 fetch (sw 20 0 0)  decode (NOPE)  execute (add 20 0 0)  write_back(NOPE ) 
+
+clock :8 fetch (sw 20 0 0)  decode (NOPE)  execute (NOPE)  write_back (add 20 20 0) 
+
+clock :9 fetch (sw 20 20 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :10 fetch (addi 20 0 20)  decode (sw 20 0 20)  execute (NOPE)  write_back(NOPE ) 
+
+clock :11 fetch (addi 20 0 20)  decode (NOPE)  execute (sw 20 0 20)  write_back(NOPE ) 
+
+clock :12 fetch (addi 20 0 20)  decode (NOPE)  execute (NOPE)  write_back (sw 20 0 20) 
+
+clock :13 fetch (addi 20 0 20)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :14 fetch (bne 20 0 0)  decode (addi 20 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :15 fetch (bne 20 0 0)  decode (NOPE)  execute (addi 20 0 0)  write_back(NOPE ) 
+
+clock :16 fetch (bne 20 0 0)  decode (NOPE)  execute (NOPE)  write_back (addi 16 0 0) 
+
+clock :17 fetch (bne 16 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :18 fetch (lw 16 0 20)  decode (bne 16 0 20)  execute (NOPE)  write_back(NOPE ) 
+
+clock :19 fetch (lw 16 0 20)  decode (NOPE)  execute (bne 16 0 20)  write_back(NOPE ) 
+
+clock :20 fetch (lw 16 0 20)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :21 fetch (add 20 0 20)  decode (lw 20 0 20)  execute (NOPE)  write_back(NOPE ) 
+
+clock :22 fetch (add 20 0 20)  decode (NOPE)  execute (lw 20 0 20)  write_back(NOPE ) 
+
+clock :23 fetch (add 20 0 20)  decode (NOPE)  execute (NOPE)  write_back (lw 16 0 20) 
+
+clock :24 fetch (add 16 0 20)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :25 fetch (sw 16 20 0)  decode (add 16 20 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :26 fetch (sw 16 20 0)  decode (NOPE)  execute (add 16 20 0)  write_back(NOPE ) 
+
+clock :27 fetch (sw 16 20 0)  decode (NOPE)  execute (NOPE)  write_back (add 16 16 0) 
+
+clock :28 fetch (sw 16 16 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :29 fetch (addi 16 0 16)  decode (sw 16 0 16)  execute (NOPE)  write_back(NOPE ) 
+
+clock :30 fetch (addi 16 0 16)  decode (NOPE)  execute (sw 16 0 16)  write_back(NOPE ) 
+
+clock :31 fetch (addi 16 0 16)  decode (NOPE)  execute (NOPE)  write_back (sw 16 0 16) 
+
+clock :32 fetch (addi 16 0 16)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :33 fetch (bne 16 0 0)  decode (addi 16 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :34 fetch (bne 16 0 0)  decode (NOPE)  execute (addi 16 0 0)  write_back(NOPE ) 
+
+clock :35 fetch (bne 16 0 0)  decode (NOPE)  execute (NOPE)  write_back (addi 12 0 0) 
+
+clock :36 fetch (bne 12 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :37 fetch (lw 12 0 16)  decode (bne 12 0 16)  execute (NOPE)  write_back(NOPE ) 
+
+clock :38 fetch (lw 12 0 16)  decode (NOPE)  execute (bne 12 0 16)  write_back(NOPE ) 
+
+clock :39 fetch (lw 12 0 16)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :40 fetch (add 16 0 16)  decode (lw 16 0 16)  execute (NOPE)  write_back(NOPE ) 
+
+clock :41 fetch (add 16 0 16)  decode (NOPE)  execute (lw 16 0 16)  write_back(NOPE ) 
+
+clock :42 fetch (add 16 0 16)  decode (NOPE)  execute (NOPE)  write_back (lw 12 0 16) 
+
+clock :43 fetch (add 12 0 16)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :44 fetch (sw 12 16 0)  decode (add 12 16 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :45 fetch (sw 12 16 0)  decode (NOPE)  execute (add 12 16 0)  write_back(NOPE ) 
+
+clock :46 fetch (sw 12 16 0)  decode (NOPE)  execute (NOPE)  write_back (add 12 12 0) 
+
+clock :47 fetch (sw 12 12 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :48 fetch (addi 12 0 12)  decode (sw 12 0 12)  execute (NOPE)  write_back(NOPE ) 
+
+clock :49 fetch (addi 12 0 12)  decode (NOPE)  execute (sw 12 0 12)  write_back(NOPE ) 
+
+clock :50 fetch (addi 12 0 12)  decode (NOPE)  execute (NOPE)  write_back (sw 12 0 12) 
+
+clock :51 fetch (addi 12 0 12)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :52 fetch (bne 12 0 0)  decode (addi 12 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :53 fetch (bne 12 0 0)  decode (NOPE)  execute (addi 12 0 0)  write_back(NOPE ) 
+
+clock :54 fetch (bne 12 0 0)  decode (NOPE)  execute (NOPE)  write_back (addi 8 0 0) 
+
+clock :55 fetch (bne 8 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :56 fetch (lw 8 0 12)  decode (bne 8 0 12)  execute (NOPE)  write_back(NOPE ) 
+
+clock :57 fetch (lw 8 0 12)  decode (NOPE)  execute (bne 8 0 12)  write_back(NOPE ) 
+
+clock :58 fetch (lw 8 0 12)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :59 fetch (add 12 0 12)  decode (lw 12 0 12)  execute (NOPE)  write_back(NOPE ) 
+
+clock :60 fetch (add 12 0 12)  decode (NOPE)  execute (lw 12 0 12)  write_back(NOPE ) 
+
+clock :61 fetch (add 12 0 12)  decode (NOPE)  execute (NOPE)  write_back (lw 8 0 12) 
+
+clock :62 fetch (add 8 0 12)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :63 fetch (sw 8 12 0)  decode (add 8 12 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :64 fetch (sw 8 12 0)  decode (NOPE)  execute (add 8 12 0)  write_back(NOPE ) 
+
+clock :65 fetch (sw 8 12 0)  decode (NOPE)  execute (NOPE)  write_back (add 8 8 0) 
+
+clock :66 fetch (sw 8 8 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :67 fetch (addi 8 0 8)  decode (sw 8 0 8)  execute (NOPE)  write_back(NOPE ) 
+
+clock :68 fetch (addi 8 0 8)  decode (NOPE)  execute (sw 8 0 8)  write_back(NOPE ) 
+
+clock :69 fetch (addi 8 0 8)  decode (NOPE)  execute (NOPE)  write_back (sw 8 0 8) 
+
+clock :70 fetch (addi 8 0 8)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :71 fetch (bne 8 0 0)  decode (addi 8 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :72 fetch (bne 8 0 0)  decode (NOPE)  execute (addi 8 0 0)  write_back(NOPE ) 
+
+clock :73 fetch (bne 8 0 0)  decode (NOPE)  execute (NOPE)  write_back (addi 4 0 0) 
+
+clock :74 fetch (bne 4 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :75 fetch (lw 4 0 8)  decode (bne 4 0 8)  execute (NOPE)  write_back(NOPE ) 
+
+clock :76 fetch (lw 4 0 8)  decode (NOPE)  execute (bne 4 0 8)  write_back(NOPE ) 
+
+clock :77 fetch (lw 4 0 8)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :78 fetch (add 8 0 8)  decode (lw 8 0 8)  execute (NOPE)  write_back(NOPE ) 
+
+clock :79 fetch (add 8 0 8)  decode (NOPE)  execute (lw 8 0 8)  write_back(NOPE ) 
+
+clock :80 fetch (add 8 0 8)  decode (NOPE)  execute (NOPE)  write_back (lw 4 0 8) 
+
+clock :81 fetch (add 4 0 8)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :82 fetch (sw 4 8 0)  decode (add 4 8 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :83 fetch (sw 4 8 0)  decode (NOPE)  execute (add 4 8 0)  write_back(NOPE ) 
+
+clock :84 fetch (sw 4 8 0)  decode (NOPE)  execute (NOPE)  write_back (add 4 4 0) 
+
+clock :85 fetch (sw 4 4 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :86 fetch (addi 4 0 4)  decode (sw 4 0 4)  execute (NOPE)  write_back(NOPE ) 
+
+clock :87 fetch (addi 4 0 4)  decode (NOPE)  execute (sw 4 0 4)  write_back(NOPE ) 
+
+clock :88 fetch (addi 4 0 4)  decode (NOPE)  execute (NOPE)  write_back (sw 4 0 4) 
+
+clock :89 fetch (addi 4 0 4)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :90 fetch (bne 4 0 0)  decode (addi 4 0 0)  execute (NOPE)  write_back(NOPE ) 
+
+clock :91 fetch (bne 4 0 0)  decode (NOPE)  execute (addi 4 0 0)  write_back(NOPE ) 
+
+clock :92 fetch (bne 4 0 0)  decode (NOPE)  execute (NOPE)  write_back (addi 0 0 0) 
+
+clock :93 fetch (bne 0 0 0)  decode (NOPE)  execute (NOPE)  write_back(NOPE ) 
+
+clock :94 fetch (lw 0 0 4)  decode (bne 0 0 4)  execute (NOPE)  write_back(NOPE ) 
+
+clock :95 fetch (lw 0 0 4)  decode (NOPE)  execute (bne) Flush the pipeline
+clock :97 fetch (NOP) decode (NOP) execute (NOP) write-back (NOP) Program exit. 
+
+Program ended with error code :0

@@ -1,0 +1,1104 @@
+process started
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 0
+InsType end
+in check_depend, reg1 -1 3
+check-depend return 01 -1 3
+pushed in fetch 4
+ fetch end
+fetch called
+fetch start
+dep = 0 
+0rs1: 3 2 4imm12 0
+InsType end
+in check_depend, reg3 2 4
+ fetch end
+read form fetch
+alu decode enter
+decode end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  4
+in execution
+lw execute
+execute end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+check-depend return 03 2 4
+pushed in fetch 0
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+5rs1: 1 4 -1imm12 0
+InsType end
+in check_depend, reg1 4 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  0
+in execution
+exec pushed 0
+add execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+check-depend return 01 4 -1
+pushed in fetch 5
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+1rs1: 1 -1 1imm12 65528
+InsType end
+in check_depend, reg1 -1 1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  5
+in execution
+sw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+check-depend return 01 -1 1
+pushed in fetch 1
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+30rs1: 1 2 -1imm12 12183574
+InsType end
+in check_depend, reg1 2 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  1
+in execution
+addi rd:1 20-4addi execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+check-depend return 01 2 -1
+pushed in fetch 30
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 12183574
+InsType end
+in check_depend, reg1 -1 3
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+ fetch end
+decode end
+execute called:  30
+in execution
+bne: 16 0
+bne execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+check-depend return 01 -1 3
+pushed in fetch 4
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+0rs1: 3 2 4imm12 12183574
+InsType end
+in check_depend, reg3 2 4
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  4
+in execution
+lw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+check-depend return 03 2 4
+pushed in fetch 0
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+5rs1: 1 4 -1imm12 0
+InsType end
+in check_depend, reg1 4 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  0
+in execution
+exec pushed 0
+add execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+check-depend return 01 4 -1
+pushed in fetch 5
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+1rs1: 1 -1 1imm12 65528
+InsType end
+in check_depend, reg1 -1 1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  5
+in execution
+sw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+check-depend return 01 -1 1
+pushed in fetch 1
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+30rs1: 1 2 -1imm12 12183574
+InsType end
+in check_depend, reg1 2 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  1
+in execution
+addi rd:1 16-4addi execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+check-depend return 01 2 -1
+pushed in fetch 30
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 12183574
+InsType end
+in check_depend, reg1 -1 3
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+ fetch end
+decode end
+execute called:  30
+in execution
+bne: 12 0
+bne execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+check-depend return 01 -1 3
+pushed in fetch 4
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+0rs1: 3 2 4imm12 12183574
+InsType end
+in check_depend, reg3 2 4
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  4
+in execution
+lw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+check-depend return 03 2 4
+pushed in fetch 0
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+5rs1: 1 4 -1imm12 0
+InsType end
+in check_depend, reg1 4 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  0
+in execution
+exec pushed 0
+add execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+check-depend return 01 4 -1
+pushed in fetch 5
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+1rs1: 1 -1 1imm12 65528
+InsType end
+in check_depend, reg1 -1 1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  5
+in execution
+sw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+check-depend return 01 -1 1
+pushed in fetch 1
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+30rs1: 1 2 -1imm12 12183574
+InsType end
+in check_depend, reg1 2 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  1
+in execution
+addi rd:1 12-4addi execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+check-depend return 01 2 -1
+pushed in fetch 30
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 12183574
+InsType end
+in check_depend, reg1 -1 3
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+ fetch end
+decode end
+execute called:  30
+in execution
+bne: 8 0
+bne execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+check-depend return 01 -1 3
+pushed in fetch 4
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+0rs1: 3 2 4imm12 12183574
+InsType end
+in check_depend, reg3 2 4
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  4
+in execution
+lw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+check-depend return 03 2 4
+pushed in fetch 0
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+5rs1: 1 4 -1imm12 0
+InsType end
+in check_depend, reg1 4 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  0
+in execution
+exec pushed 0
+add execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+check-depend return 01 4 -1
+pushed in fetch 5
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+1rs1: 1 -1 1imm12 65528
+InsType end
+in check_depend, reg1 -1 1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  5
+in execution
+sw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+check-depend return 01 -1 1
+pushed in fetch 1
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+30rs1: 1 2 -1imm12 12183574
+InsType end
+in check_depend, reg1 2 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  1
+in execution
+addi rd:1 8-4addi execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+check-depend return 01 2 -1
+pushed in fetch 30
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 12183574
+InsType end
+in check_depend, reg1 -1 3
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+ fetch end
+decode end
+execute called:  30
+in execution
+bne: 4 0
+bne execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+check-depend return 01 -1 3
+pushed in fetch 4
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+0rs1: 3 2 4imm12 12183574
+InsType end
+in check_depend, reg3 2 4
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  4
+in execution
+lw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg3 2 4
+check-depend return 03 2 4
+pushed in fetch 0
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+5rs1: 1 4 -1imm12 0
+InsType end
+in check_depend, reg1 4 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  0
+in execution
+exec pushed 0
+add execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 4 -1
+check-depend return 01 4 -1
+pushed in fetch 5
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+1rs1: 1 -1 1imm12 65528
+InsType end
+in check_depend, reg1 -1 1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  5
+in execution
+sw execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 1
+check-depend return 01 -1 1
+pushed in fetch 1
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+30rs1: 1 2 -1imm12 12183574
+InsType end
+in check_depend, reg1 2 -1
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  1
+in execution
+addi rd:1 4-4addi execute
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+ fetch end
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 2 -1
+check-depend return 01 2 -1
+pushed in fetch 30
+ fetch end
+ decode null received
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+dep = 0 
+4rs1: 1 -1 3imm12 12183574
+InsType end
+in check_depend, reg1 -1 3
+ fetch end
+read form fetch
+alu decode enter
+decode end
+execute called:  -1
+execute end
+write back called
+write back end
+fetch called
+fetch start
+in check_depend, reg1 -1 3
+ fetch end
+decode end
+execute called:  30
+in execution
+bne: 0 0
+bne execute
